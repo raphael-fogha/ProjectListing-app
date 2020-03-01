@@ -1,6 +1,6 @@
 # ProjectListing-app
 
-Reseau social inspiré de Tweeter. Pas de "tweets" ici, mais des "screams" !
+Application listant des projets : React, Redux, Firebase
 
 https://marioplan-2417e.firebaseapp.com/
 
