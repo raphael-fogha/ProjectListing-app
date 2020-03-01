@@ -1,0 +1,206 @@
+[debug] [2020-02-04T10:00:38.998Z] ----------------------------------------------------------------------
+[debug] [2020-02-04T10:00:39.002Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kitru\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2020-02-04T10:00:39.002Z] CLI Version:   7.12.1
+[debug] [2020-02-04T10:00:39.003Z] Platform:      win32
+[debug] [2020-02-04T10:00:39.003Z] Node Version:  v12.14.0
+[debug] [2020-02-04T10:00:39.015Z] Time:          Tue Feb 04 2020 11:00:39 GMT+0100 (GMT+01:00)
+[debug] [2020-02-04T10:00:39.016Z] ----------------------------------------------------------------------
+[debug] [2020-02-04T10:00:39.016Z] 
+[debug] [2020-02-04T10:00:39.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-04T10:00:39.053Z] > authorizing via signed-in user
+[debug] [2020-02-04T10:00:39.054Z] [iam] checking project marioplan-2417e for permissions ["firebase.projects.get"]
+[debug] [2020-02-04T10:00:39.062Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-04T10:00:39.063Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-04T10:00:39.254Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-04T10:00:39.277Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/marioplan-2417e:testIamPermissions  
+
+[debug] [2020-02-04T10:00:39.981Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5000
+[debug] [2020-02-04T10:00:42.952Z] [functions] Watching "C:\Users\kitru\marioplan\functions" for Cloud Functions...
+[debug] [2020-02-04T10:00:43.069Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:00:43.070Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-04T10:00:43.070Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:00:43.071Z] DEBUG: [worker-~diagnostic~-e0de7c74-c83e-4656-9f31-ec9b59052883]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\22284
+[debug] [2020-02-04T10:00:43.074Z] DEBUG: [worker-~diagnostic~-e0de7c74-c83e-4656-9f31-ec9b59052883]: BUSY
+[debug] [2020-02-04T10:00:44.547Z] DEBUG: [runtime-status] [22284] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:00:44.549Z] DEBUG: [runtime-status] [22284] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:00:44.563Z] DEBUG: [runtime-status] [22284] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:00:44.570Z] DEBUG: [runtime-status] [22284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:00:44.575Z] DEBUG: [runtime-status] [22284] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:00:44.784Z] [functions[helloWorld]] http function initialized (http://localhost:5000/marioplan-2417e/europe-west1/helloWorld).
+[info] i  functions: Loaded functions: helloWorld
+[debug] [2020-02-04T10:00:44.825Z] DEBUG: [worker-~diagnostic~-e0de7c74-c83e-4656-9f31-ec9b59052883]: IDLE
+[debug] [2020-02-04T10:04:40.507Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:04:41.511Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:04:41.512Z] DEBUG: [worker-~diagnostic~-e0de7c74-c83e-4656-9f31-ec9b59052883]: FINISHING
+[debug] [2020-02-04T10:04:41.533Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:04:41.533Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:04:41.533Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:04:41.533Z] DEBUG: [worker-~diagnostic~-b0c666dd-28a4-4703-ac99-2a65bae7ce6b]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\21320
+[debug] [2020-02-04T10:04:41.534Z] DEBUG: [worker-~diagnostic~-b0c666dd-28a4-4703-ac99-2a65bae7ce6b]: BUSY
+[debug] [2020-02-04T10:04:41.536Z] DEBUG: [worker-~diagnostic~-e0de7c74-c83e-4656-9f31-ec9b59052883]: exited
+[debug] [2020-02-04T10:04:41.536Z] DEBUG: [worker-~diagnostic~-e0de7c74-c83e-4656-9f31-ec9b59052883]: FINISHED
+[debug] [2020-02-04T10:04:42.960Z] DEBUG: [runtime-status] [21320] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:04:42.963Z] DEBUG: [runtime-status] [21320] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:04:42.972Z] DEBUG: [runtime-status] [21320] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:04:42.977Z] DEBUG: [runtime-status] [21320] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:04:42.979Z] DEBUG: [runtime-status] [21320] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:04:43.146Z] DEBUG: [worker-~diagnostic~-b0c666dd-28a4-4703-ac99-2a65bae7ce6b]: IDLE
+[debug] [2020-02-04T10:10:56.578Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:10:57.583Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:10:57.583Z] DEBUG: [worker-~diagnostic~-b0c666dd-28a4-4703-ac99-2a65bae7ce6b]: FINISHING
+[debug] [2020-02-04T10:10:57.584Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:10:57.619Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:10:57.620Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:10:57.620Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:10:57.620Z] DEBUG: [worker-~diagnostic~-4f384fe3-64bc-403d-9868-a7ecad64723d]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\6892
+[debug] [2020-02-04T10:10:57.620Z] DEBUG: [worker-~diagnostic~-4f384fe3-64bc-403d-9868-a7ecad64723d]: BUSY
+[debug] [2020-02-04T10:10:57.623Z] DEBUG: [worker-~diagnostic~-b0c666dd-28a4-4703-ac99-2a65bae7ce6b]: exited
+[debug] [2020-02-04T10:10:57.623Z] DEBUG: [worker-~diagnostic~-b0c666dd-28a4-4703-ac99-2a65bae7ce6b]: FINISHED
+[debug] [2020-02-04T10:10:59.004Z] DEBUG: [runtime-status] [6892] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:10:59.006Z] DEBUG: [runtime-status] [6892] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:10:59.015Z] DEBUG: [runtime-status] [6892] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:10:59.043Z] DEBUG: [runtime-status] [6892] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:10:59.046Z] DEBUG: [runtime-status] [6892] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:10:59.233Z] DEBUG: [worker-~diagnostic~-4f384fe3-64bc-403d-9868-a7ecad64723d]: IDLE
+[debug] [2020-02-04T10:16:23.737Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:16:24.739Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:16:24.739Z] DEBUG: [worker-~diagnostic~-4f384fe3-64bc-403d-9868-a7ecad64723d]: FINISHING
+[debug] [2020-02-04T10:16:24.740Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:16:24.785Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:16:24.786Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:16:24.786Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:16:24.787Z] DEBUG: [worker-~diagnostic~-a6286fd4-1abb-4de6-8ff9-2adc590f5234]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\21864
+[debug] [2020-02-04T10:16:24.787Z] DEBUG: [worker-~diagnostic~-a6286fd4-1abb-4de6-8ff9-2adc590f5234]: BUSY
+[debug] [2020-02-04T10:16:24.789Z] DEBUG: [worker-~diagnostic~-4f384fe3-64bc-403d-9868-a7ecad64723d]: exited
+[debug] [2020-02-04T10:16:24.789Z] DEBUG: [worker-~diagnostic~-4f384fe3-64bc-403d-9868-a7ecad64723d]: FINISHED
+[debug] [2020-02-04T10:16:25.850Z] DEBUG: [runtime-status] [21864] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:16:25.852Z] DEBUG: [runtime-status] [21864] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:16:25.859Z] DEBUG: [runtime-status] [21864] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:16:25.865Z] DEBUG: [runtime-status] [21864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:16:25.867Z] DEBUG: [runtime-status] [21864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:16:25.963Z] [functions[projectCreated]] function ignored because the firestore emulator does not exist or is not running.
+[debug] [2020-02-04T10:16:25.963Z] DEBUG: [worker-~diagnostic~-a6286fd4-1abb-4de6-8ff9-2adc590f5234]: IDLE
+[debug] [2020-02-04T10:18:53.081Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:18:54.083Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:18:54.083Z] DEBUG: [worker-~diagnostic~-a6286fd4-1abb-4de6-8ff9-2adc590f5234]: FINISHING
+[debug] [2020-02-04T10:18:54.084Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:18:54.120Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:18:54.120Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:18:54.120Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:18:54.120Z] DEBUG: [worker-~diagnostic~-49919bcc-3609-4e17-9bd3-7c8323b450f8]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\2152
+[debug] [2020-02-04T10:18:54.121Z] DEBUG: [worker-~diagnostic~-49919bcc-3609-4e17-9bd3-7c8323b450f8]: BUSY
+[debug] [2020-02-04T10:18:54.123Z] DEBUG: [worker-~diagnostic~-a6286fd4-1abb-4de6-8ff9-2adc590f5234]: exited
+[debug] [2020-02-04T10:18:54.123Z] DEBUG: [worker-~diagnostic~-a6286fd4-1abb-4de6-8ff9-2adc590f5234]: FINISHED
+[debug] [2020-02-04T10:18:55.761Z] DEBUG: [runtime-status] [2152] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:18:55.764Z] DEBUG: [runtime-status] [2152] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:18:55.773Z] DEBUG: [runtime-status] [2152] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:18:55.778Z] DEBUG: [runtime-status] [2152] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:18:55.781Z] DEBUG: [runtime-status] [2152] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:18:55.945Z] DEBUG: [worker-~diagnostic~-49919bcc-3609-4e17-9bd3-7c8323b450f8]: IDLE
+[debug] [2020-02-04T10:20:53.093Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:20:54.097Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:20:54.097Z] DEBUG: [worker-~diagnostic~-49919bcc-3609-4e17-9bd3-7c8323b450f8]: FINISHING
+[debug] [2020-02-04T10:20:54.099Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:20:54.142Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:20:54.143Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:20:54.143Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:20:54.143Z] DEBUG: [worker-~diagnostic~-d17ceb99-7fb2-4378-abf1-460edab0cd8d]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\11856
+[debug] [2020-02-04T10:20:54.144Z] DEBUG: [worker-~diagnostic~-d17ceb99-7fb2-4378-abf1-460edab0cd8d]: BUSY
+[debug] [2020-02-04T10:20:54.147Z] DEBUG: [worker-~diagnostic~-49919bcc-3609-4e17-9bd3-7c8323b450f8]: exited
+[debug] [2020-02-04T10:20:54.147Z] DEBUG: [worker-~diagnostic~-49919bcc-3609-4e17-9bd3-7c8323b450f8]: FINISHED
+[debug] [2020-02-04T10:20:55.769Z] DEBUG: [runtime-status] [11856] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:20:55.772Z] DEBUG: [runtime-status] [11856] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:20:55.780Z] DEBUG: [runtime-status] [11856] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:20:55.785Z] DEBUG: [runtime-status] [11856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:20:55.788Z] DEBUG: [runtime-status] [11856] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:20:55.922Z] DEBUG: [worker-~diagnostic~-d17ceb99-7fb2-4378-abf1-460edab0cd8d]: IDLE
+[debug] [2020-02-04T10:21:04.928Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:21:05.930Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:21:05.930Z] DEBUG: [worker-~diagnostic~-d17ceb99-7fb2-4378-abf1-460edab0cd8d]: FINISHING
+[debug] [2020-02-04T10:21:05.931Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:21:05.970Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:21:05.970Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:21:05.970Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:21:05.971Z] DEBUG: [worker-~diagnostic~-590ff5f7-b444-4776-951d-e175e6f26827]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\20952
+[debug] [2020-02-04T10:21:05.971Z] DEBUG: [worker-~diagnostic~-590ff5f7-b444-4776-951d-e175e6f26827]: BUSY
+[debug] [2020-02-04T10:21:05.974Z] DEBUG: [worker-~diagnostic~-d17ceb99-7fb2-4378-abf1-460edab0cd8d]: exited
+[debug] [2020-02-04T10:21:05.975Z] DEBUG: [worker-~diagnostic~-d17ceb99-7fb2-4378-abf1-460edab0cd8d]: FINISHED
+[debug] [2020-02-04T10:21:07.111Z] DEBUG: [runtime-status] [20952] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:21:07.113Z] DEBUG: [runtime-status] [20952] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:21:07.120Z] DEBUG: [runtime-status] [20952] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:21:07.127Z] DEBUG: [runtime-status] [20952] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:21:07.129Z] DEBUG: [runtime-status] [20952] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:21:07.293Z] DEBUG: [worker-~diagnostic~-590ff5f7-b444-4776-951d-e175e6f26827]: IDLE
+[debug] [2020-02-04T10:43:06.656Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:43:07.661Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:43:07.662Z] DEBUG: [worker-~diagnostic~-590ff5f7-b444-4776-951d-e175e6f26827]: FINISHING
+[debug] [2020-02-04T10:43:07.662Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:43:07.706Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:43:07.707Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:43:07.707Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:43:07.707Z] DEBUG: [worker-~diagnostic~-28ed1220-1a7d-48cb-9ad8-8c59e30ed026]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\21072
+[debug] [2020-02-04T10:43:07.707Z] DEBUG: [worker-~diagnostic~-28ed1220-1a7d-48cb-9ad8-8c59e30ed026]: BUSY
+[debug] [2020-02-04T10:43:07.711Z] DEBUG: [worker-~diagnostic~-590ff5f7-b444-4776-951d-e175e6f26827]: exited
+[debug] [2020-02-04T10:43:07.711Z] DEBUG: [worker-~diagnostic~-590ff5f7-b444-4776-951d-e175e6f26827]: FINISHED
+[debug] [2020-02-04T10:43:09.206Z] DEBUG: [runtime-status] [21072] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:43:09.209Z] DEBUG: [runtime-status] [21072] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:43:09.221Z] DEBUG: [runtime-status] [21072] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:43:09.227Z] DEBUG: [runtime-status] [21072] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:43:09.230Z] DEBUG: [runtime-status] [21072] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:43:09.429Z] DEBUG: Unsupported trigger: {"eventTrigger":{"resource":"projects/marioplan-2417e","eventType":"providers/firebase.auth/eventTypes/user.create","service":"firebaseauth.googleapis.com"},"name":"userJoined","entryPoint":"userJoined"}
+[debug] [2020-02-04T10:43:09.429Z] [functions[userJoined]] function ignored because the firebaseauth.googleapis.com emulator does not exist or is not running.
+[debug] [2020-02-04T10:43:09.430Z] DEBUG: [worker-~diagnostic~-28ed1220-1a7d-48cb-9ad8-8c59e30ed026]: IDLE
+[debug] [2020-02-04T10:45:25.666Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:45:26.677Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:45:26.678Z] DEBUG: [worker-~diagnostic~-28ed1220-1a7d-48cb-9ad8-8c59e30ed026]: FINISHING
+[debug] [2020-02-04T10:45:26.680Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:45:26.713Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:45:26.714Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:45:26.714Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:45:26.715Z] DEBUG: [worker-~diagnostic~-b9e1c766-e1bf-4c6e-81c2-766fa8b9fe42]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\3128
+[debug] [2020-02-04T10:45:26.716Z] DEBUG: [worker-~diagnostic~-b9e1c766-e1bf-4c6e-81c2-766fa8b9fe42]: BUSY
+[debug] [2020-02-04T10:45:26.719Z] DEBUG: [worker-~diagnostic~-28ed1220-1a7d-48cb-9ad8-8c59e30ed026]: exited
+[debug] [2020-02-04T10:45:26.719Z] DEBUG: [worker-~diagnostic~-28ed1220-1a7d-48cb-9ad8-8c59e30ed026]: FINISHED
+[debug] [2020-02-04T10:45:27.738Z] DEBUG: [runtime-status] [3128] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:45:27.740Z] DEBUG: [runtime-status] [3128] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:45:27.745Z] DEBUG: [runtime-status] [3128] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:45:27.749Z] DEBUG: [runtime-status] [3128] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:45:27.751Z] DEBUG: [runtime-status] [3128] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:45:27.856Z] DEBUG: [worker-~diagnostic~-b9e1c766-e1bf-4c6e-81c2-766fa8b9fe42]: IDLE
+[debug] [2020-02-04T10:51:55.752Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:51:56.754Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:51:56.754Z] DEBUG: [worker-~diagnostic~-b9e1c766-e1bf-4c6e-81c2-766fa8b9fe42]: FINISHING
+[debug] [2020-02-04T10:51:56.755Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:51:56.780Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:51:56.780Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:51:56.780Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:51:56.780Z] DEBUG: [worker-~diagnostic~-9f3f9a80-e51e-4526-aed4-9ba7a128b041]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\14132
+[debug] [2020-02-04T10:51:56.781Z] DEBUG: [worker-~diagnostic~-9f3f9a80-e51e-4526-aed4-9ba7a128b041]: BUSY
+[debug] [2020-02-04T10:51:56.782Z] DEBUG: [worker-~diagnostic~-b9e1c766-e1bf-4c6e-81c2-766fa8b9fe42]: exited
+[debug] [2020-02-04T10:51:56.783Z] DEBUG: [worker-~diagnostic~-b9e1c766-e1bf-4c6e-81c2-766fa8b9fe42]: FINISHED
+[debug] [2020-02-04T10:51:57.588Z] DEBUG: [runtime-status] [14132] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:51:57.594Z] DEBUG: [runtime-status] [14132] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:51:57.603Z] DEBUG: [runtime-status] [14132] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:51:57.612Z] DEBUG: [runtime-status] [14132] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:51:57.614Z] DEBUG: [runtime-status] [14132] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:51:57.702Z] DEBUG: [worker-~diagnostic~-9f3f9a80-e51e-4526-aed4-9ba7a128b041]: IDLE
+[debug] [2020-02-04T10:59:26.582Z] DEBUG: File C:\Users\kitru\marioplan\functions\index.js changed, reloading triggers
+[debug] [2020-02-04T10:59:27.592Z] DEBUG: [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2020-02-04T10:59:27.592Z] DEBUG: [worker-~diagnostic~-9f3f9a80-e51e-4526-aed4-9ba7a128b041]: FINISHING
+[debug] [2020-02-04T10:59:27.592Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-04T10:59:27.609Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-04T10:59:27.609Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-04T10:59:27.609Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-04T10:59:27.610Z] DEBUG: [worker-~diagnostic~-b283bf71-86d4-4189-a697-550465fcf537]: Assigning socketPath: \\?\pipe\C:\Users\kitru\marioplan\functions\4664
+[debug] [2020-02-04T10:59:27.610Z] DEBUG: [worker-~diagnostic~-b283bf71-86d4-4189-a697-550465fcf537]: BUSY
+[debug] [2020-02-04T10:59:27.611Z] DEBUG: [worker-~diagnostic~-9f3f9a80-e51e-4526-aed4-9ba7a128b041]: exited
+[debug] [2020-02-04T10:59:27.611Z] DEBUG: [worker-~diagnostic~-9f3f9a80-e51e-4526-aed4-9ba7a128b041]: FINISHED
+[debug] [2020-02-04T10:59:28.443Z] DEBUG: [runtime-status] [4664] Functions runtime initialized. {"cwd":"C:\\Users\\kitru\\marioplan\\functions","node_version":"12.14.0"}
+[debug] [2020-02-04T10:59:28.445Z] DEBUG: [runtime-status] [4664] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-04T10:59:28.454Z] DEBUG: [runtime-status] [4664] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-04T10:59:28.458Z] DEBUG: [runtime-status] [4664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:59:28.459Z] DEBUG: [runtime-status] [4664] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\kitru\\marioplan\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-04T10:59:28.541Z] DEBUG: [worker-~diagnostic~-b283bf71-86d4-4189-a697-550465fcf537]: IDLE
