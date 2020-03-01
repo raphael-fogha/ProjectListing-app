@@ -1,6 +1,6 @@
 # ProjectListing-app
 
-Application listant des projets : React, Redux, Firebase
+Application listant des projets 
 
 https://marioplan-2417e.firebaseapp.com/
 
